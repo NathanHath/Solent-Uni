@@ -21,3 +21,14 @@ print ("__\\__|__/__")
 print ("   /   \\")
 print ("  / / \\ \\")
 print (" (_) ([ ])")
+
+#reading user input
+print("What is your name?")
+name = input()
+print(f"It is nice to meet you {name}")
+
+eye = input("what should we use for the robot eye?")
+print ("#############")
+print (f"# o      {eye} #")
+print ("# ---- #")
+print ("########## ")
