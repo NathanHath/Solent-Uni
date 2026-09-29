@@ -6,3 +6,9 @@ print("...How to use Git and GitHub")
 print("...How to output to the scree")
 print("...How to get user input")
 
+# Display escape characters
+print("\n Displays a new line")
+print("\t Displays a tab space")
+print("\\ Displays a back slash")
+print("\" Displays a double quote")
+print("\' Displays a single quote")
