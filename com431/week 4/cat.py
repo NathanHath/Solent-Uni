@@ -6,7 +6,7 @@ class Cat:
     def eat(self):
         self.weight += 1
 
-    def get_details(self):
+    def getdetails(self):
         return f"{self.name}, {self.weight}"
 
     def walk(self):
