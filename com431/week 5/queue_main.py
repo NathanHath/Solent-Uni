@@ -1,0 +1,12 @@
+from  queue import Queue
+new_queue = Queue(5)
+new_queue.add("bob")
+new_queue.add("alex")
+new_queue.add("steven")
+new_queue.add("john")
+new_queue.add("rio")
+new_queue.remove()
+new_queue.add("Nathan")
+print(new_queue)
+new_queue.remove()
+print(new_queue)
