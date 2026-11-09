@@ -1,11 +1,14 @@
 def directions():
-    steps = [ "Move Forward", "Move Backward", "Turn Left", "Turn Right"]
-    return steps
+     directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+     return directions
 
-def menu_and_input():
-    print ("Enter your choice:")
-    step = directions()
-    for i in range(len(step)):
-        print (f"{i}: {step[i]}")
-    return int(input())
+def menu():
+     print("Please select a direction:")
+     dirs = directions()
+     for index in range(len(dirs)):
+        print(f"{index}: {dirs[index]}")
 
+def run():
+    menu()
+
+run()
