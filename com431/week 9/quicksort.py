@@ -23,7 +23,7 @@ def hoare_partition(list, start, end):
         list[i], list[j] = list[j], list[i]
 
 
-list = [14, 28, 4, 57, 41, 33, 62, 92, 81, 76, -1,]
+list = [14, 28, 4, 57, 41, 33, 62, 92, 81, 76, -1]
 quicksort(list, 0, len(list)-1)
 print(list)
 
